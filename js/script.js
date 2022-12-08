@@ -1,7 +1,7 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
+// Copyright (c) 2022 Sam Corbett All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: Sam Corbett
+// Created on: Dec 2022
 // This file contains the JS functions for index.html
 
 "use strict"
@@ -16,7 +16,7 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function ccalculates the sum of natural numbers.
+ * This function calculates the sum of natural numbers.
  */
 function myButtonClicked() {
   var numN = parseFloat(document.getElementById("integer-n").value)
