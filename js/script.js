@@ -24,9 +24,9 @@ function myButtonClicked() {
   var counter = 0
   var loop = 0
 
-  for (let loop = 0; loop < numN; loop++) {
-    counter++
-    sum = sum + counter
+  for (let loop = 0; loop < numN;) {
+    loop++
+    sum = sum + loop
     document.getElementById("sum").innerHTML =
       "The total sum equals " + sum + ".<br>"
   }
